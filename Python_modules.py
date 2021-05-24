@@ -64,7 +64,15 @@ print(math.remainder(1, 5))
 #     return os.getcwd()
 # print(current_working_dir())
 
-import math
-print(math.pi)
+# import math
+# print(math.pi)
 
-def add(num1, num)
+def add(num1, num2):
+    return num1 + num2
+
+# arguments:expression
+addition = lambda num1, num2: num1 + num2 # calculating the expression
+print("value returned by add() function")
+print(add(2, 2)
+print("value returned using lambda function ")
+print(addition(7, 2))

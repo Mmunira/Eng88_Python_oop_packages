@@ -2,13 +2,17 @@
 ### Packages
 #### Modules
 
-The four pillars of OOP are:
-- Encapsulation
-- Inheritance
-- Abstraction
+##### The four pillars of OOP are:
+- Encapsulation - hiding the data, making it private yet available 
+  e.g. _dob = 01/01/1991 # the underscore in front of dob makes it private
+  
+- Inheritance - Inheritance allows us to define a class that inherits all the methods and properties from another class.
+Parent class is the class being inherited from, also called base class.
+Child class is the class that inherits from another class, also called derived class.
+  
+- Abstraction - 
 - Polymorphism
-Packages
-Modules
+
   
 # What are python modules
 # We have built in modules that we can can find on Python Library
@@ -49,29 +53,3 @@ Modules
 # print(math.floor(num1))
 # what is the use case?
 
-# what is the use
-# os, sys are used to get information about your localhost/your machine such as name, path etc
-
-import os, sys, datetime, math
-
-print(os.cpu_count())
-print(datetime.datetime.today())
-
-# % ? provide remainder value
-print(math.remainder(1, 5))
-
-# working_dir = os.getcwd()
-# print("This is your current working Dir " + working_dir)
-
-# system_path = sys.path
-# print("This is the path " + str(system_path))
-
-# def current_system_path():
-#     print("This is your current path ")
-#     return sys.path
-# print(current_system_path())
-#
-# def current_working_dir():
-#     print("This is your current working Dir ")
-#     return os.getcwd()
-# print(current_working_dir())
